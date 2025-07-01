@@ -24,19 +24,19 @@ public class Main {
                 area = calculateCircleArea(radius);
                 System.out.printf("Area of the circle: %.2f", area);
             }else if(selection == 2){
-                System.out.println("Enter the base: ");
+                System.out.print("Enter the base: ");
                 input = sc.nextLine();
                 double base = Double.parseDouble(input);
-                System.out.println("Enter the height: ");
+                System.out.print("Enter the height: ");
                 input = sc.nextLine();
                 double height = Double.parseDouble(input);
                 area = calculateTriangleArea(base, height);
                 System.out.printf("Area of the triangle: %.2f", area);
             }else if(selection == 3){
-                System.out.println("Enter the length: ");
+                System.out.print("Enter the length: ");
                 input = sc.nextLine();
                 double length = Double.parseDouble(input);
-                System.out.println("Enter the width: ");
+                System.out.print("Enter the width: ");
                 input = sc.nextLine();
                 double width = Double.parseDouble(input);
                 area = calculateRectangleArea(length, width);
